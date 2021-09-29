@@ -1,11 +1,9 @@
 .debug header {
     height: 50px;
-    background-color: #2C3E50;
 }
 
 .debug .start {
     height: 300px;
-    background-color: #1ABC9C;
 }
 
 .debug .portfolio {
@@ -14,7 +12,6 @@
 
 .debug .about {
     height: 300px;
-    background-color: #1ABC9C;
 }
 
 .debug .contact {
@@ -23,12 +20,28 @@
 
 .debug .top_footer {
     height: 200px;
-    background-color: #3A546D;
 }
 
 .debug .bottom_footer {
     height: 80px;
+}
+
+header,
+.bottom_footer {
     background-color: #2C3E50;
+}
+
+header .hide_btn {
+    display: none;
+}
+
+.start,
+.about {
+    background-color: #1ABC9C;
+}
+
+.top_footer {
+    background-color: #3A546D;
 }
 
 .start img {
@@ -38,4 +51,14 @@
 .portfolio .row img {
     width: 100%;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    header .menu {
+        display: none;
+    }
+
+    header .hide_btn {
+        display: block;
+    }
 }
