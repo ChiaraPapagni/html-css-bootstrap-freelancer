@@ -1,0 +1,32 @@
+.debug header {
+    height: 50px;
+    background-color: #2C3E50;
+}
+
+.debug .start {
+    height: 300px;
+    background-color: #1ABC9C;
+}
+
+.debug .portfolio {
+    height: 400px;
+}
+
+.debug .about {
+    height: 200px;
+    background-color: #1ABC9C;
+}
+
+.debug .contact {
+    height: 400px;
+}
+
+.debug .top_footer {
+    height: 200px;
+    background-color: #3A546D;
+}
+
+.debug .bottom_footer {
+    height: 100px;
+    background-color: #2C3E50;
+}
