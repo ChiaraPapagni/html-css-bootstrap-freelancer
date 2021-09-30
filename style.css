@@ -31,10 +31,6 @@ header,
     background-color: #2C3E50;
 }
 
-header .hide_btn {
-    display: none;
-}
-
 .start,
 .about {
     background-color: #1ABC9C;
@@ -51,14 +47,4 @@ header .hide_btn {
 .portfolio .row img {
     width: 100%;
     border-radius: 10px;
-}
-
-@media screen and (max-width: 576px) {
-    header .menu {
-        display: none;
-    }
-
-    header .hide_btn {
-        display: block;
-    }
 }
