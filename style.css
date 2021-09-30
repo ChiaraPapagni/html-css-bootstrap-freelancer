@@ -48,3 +48,15 @@ header,
     width: 100%;
     border-radius: 10px;
 }
+
+.star i {
+    font-size: 1.3rem;
+}
+
+.star .line_before,
+.star .line_after {
+    width: 15%;
+    height: 4px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
