@@ -49,6 +49,10 @@ header,
     border-radius: 10px;
 }
 
+.star i {
+    font-size: 1.3rem;
+}
+
 .line_before,
 .line_after {
     width: 15%;
