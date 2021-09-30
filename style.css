@@ -49,14 +49,15 @@ header,
     border-radius: 10px;
 }
 
-.star i {
-    font-size: 1.3rem;
-}
-
-.star .line_before,
-.star .line_after {
+.line_before,
+.line_after {
     width: 15%;
     height: 4px;
     background-color: #FFFFFF;
     border-radius: 10px;
+}
+
+.portfolio .line_before,
+.portfolio .line_after {
+    background-color: #000000;
 }
