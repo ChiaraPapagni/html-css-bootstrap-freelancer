@@ -1,3 +1,6 @@
+/************************
+Debug rules
+************************/
 .debug header {
     height: 50px;
 }
@@ -26,6 +29,19 @@
     height: 80px;
 }
 
+/************************
+Utility
+************************/
+a {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1ABC9C;
+    text-decoration: underline;
+}
+
 header,
 .bottom_footer {
     background-color: #2C3E50;
@@ -38,15 +54,6 @@ header,
 
 .top_footer {
     background-color: #3A546D;
-}
-
-.start img {
-    width: 150px;
-}
-
-.portfolio .row img {
-    width: 100%;
-    border-radius: 10px;
 }
 
 .star i {
@@ -68,10 +75,37 @@ header,
     background-color: #000000;
 }
 
+/************************
+Header
+************************/
+/* Navbar */
+.navbar-light .navbar-toggler {
+    border-color: #FFFFFF;
+}
+
+.navbar-light .navbar-toggler-icon {
+    filter: contrast(0%) brightness(1.7);
+}
+
+/************************
+Main
+************************/
+/* Start */
+.start img {
+    width: 150px;
+}
+
+/* Portfolio */
+.portfolio .row img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 textarea.form-control {
     height: 200px;
 }
 
+/* Contact */
 .form-control {
     padding-left: 0;
     padding-top: 0;
@@ -111,4 +145,18 @@ textarea.form-control {
 
 .form .btn:focus {
     box-shadow: 0 0 0 0.25rem rgb(26 188 156 / 25%);
+}
+
+/************************
+Footer
+************************/
+.social_icon {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.copyright {
+    font-size: 0.9rem;
 }
